@@ -1,9 +1,12 @@
 {
-  "name": "aceternity-cli",
+  "name": "aceternity",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "bin": {
+    "aceternity": "./index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,10 @@
   "dependencies": {
     "commander": "^12.1.0",
     "enquirer": "^2.4.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0"
   }
 }
