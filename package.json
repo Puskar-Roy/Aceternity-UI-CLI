@@ -15,5 +15,9 @@
     "url": "https://github.com/Puskar-Roy/Aceternity-UI-CLI/issues"
   },
   "homepage": "https://github.com/Puskar-Roy/Aceternity-UI-CLI#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "enquirer": "^2.4.1"
+  }
 }
