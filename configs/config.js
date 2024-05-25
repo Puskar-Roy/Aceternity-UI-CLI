@@ -45,6 +45,6 @@ function addVariablesForColors({ addBase, theme }: any) {
     ":root": newVars,
   });
 }
-`;
+`
 
-module.exports = { defaultTailwindConfig };
+module.exports = { defaultTailwindConfig }
